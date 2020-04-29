@@ -1,2 +1,2 @@
 # SGExams
-automoderator config written for the r/SGExams subreddit by randomystick
+Languages: Python || Date created: Apr 2019
