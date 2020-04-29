@@ -1,2 +1,2 @@
 # SGExams
-Languages: Python || Date created: Apr 2019
+Written for Reddit's Automoderator bot. Languages: Python || Date created: Apr 2019
