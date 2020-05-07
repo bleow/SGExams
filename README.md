@@ -1,2 +1,2 @@
 # SGExams
-Written for Reddit's Automoderator bot. Languages: Python || Date created: Apr 2019
+Written for managing the r/SGExams subreddit, using Python Reddit API Wrapper (PRAW). Languages: Python || Date created: Apr 2019
