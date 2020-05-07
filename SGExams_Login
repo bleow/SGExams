@@ -1,0 +1,5 @@
+# https://www.reddit.com/prefs/apps
+client_id = ""
+client_secret = ""
+username = "yourRedditUsernameHere"
+password = "yourRedditPasswordHere"
