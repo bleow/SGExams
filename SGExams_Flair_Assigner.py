@@ -7,7 +7,7 @@ reddit = praw.Reddit(client_id = SGExams_Login.client_id,
                      client_secret = SGExams_Login.client_secret,
                      username = SGExams_Login.username,
                      password = SGExams_Login.password,
-                     user_agent = "reddit:flairchanger by rando",
+                     user_agent = f"reddit:flairchanger by {SGExams_Login.username}",
                      )
 subreddit = reddit.subreddit("SGExams")
 
