@@ -10,8 +10,11 @@ Written for managing the r/SGExams subreddit, using Python Reddit API Wrapper (P
 
 
 ## Debugging
+
 Problem: ModuleNotFoundError: No module named 'praw'
+
 Solution 1: run pip install (see Python Libraries section)
+
 Solution 2: If running in an IDE, check that the version number your IDE is running in (in Visual Studio Code, available in the bottom left on the blue header) is the same as the latest version you have installed on your computer. To do so,
 1. Run import sys and print(f"{sys.date}") in VSCode
 2. Run import sys and sys.date in command prompt
