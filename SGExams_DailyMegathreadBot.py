@@ -6,10 +6,6 @@ import SGExams_Login
 import datetime #get today and yesterday
 import re  #regex search for "ｐｏｓｔｅｄ  ｂｙ："
 
-#################################################
-################## REDDIT PART ##################
-#################################################
-
 # Reddit OAuth Details & Init to SGExams
 reddit = praw.Reddit(client_id = SGExams_Login.client_id,
                      client_secret = SGExams_Login.client_secret,
