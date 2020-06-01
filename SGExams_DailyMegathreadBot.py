@@ -22,7 +22,7 @@ yesterday = (datetime.date.today() - datetime.timedelta(days = 1)).strftime("%B 
 
 
 # RETRIEVE YESTERDAY'S POST
-for YSTDpost in subreddit.search(f"Daily Megathread {yesterday}"):
+for YSTDpost in subreddit.search(f"Daily {yesterday}"):
     YSTDsubmission = reddit.submission(url=YSTDpost.url)
 # DEBUG # print(f"yesterday post is {YSTDsubmission}")
 
@@ -64,7 +64,7 @@ for top_level_comment in YSTDsubmission.comments:
 
 
 # RETRIEVE TODAY'S POST
-for TDAYpost in subreddit.search(f"Daily Megathread {today}"):
+for TDAYpost in subreddit.search(f"Daily {today}"):
     TDAYsubmission = reddit.submission(url=TDAYpost.url)
 # DEBUG # print(f"today post is {TDAYsubmission.title}")
 for i in unrepliedComments:
