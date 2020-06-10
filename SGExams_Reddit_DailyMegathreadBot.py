@@ -18,6 +18,7 @@ DEBUGGING ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 TIMEOUT = 3
 
 import praw #reddit
+import SGExams_Login
 import datetime #get today and yesterday
 import re  #regex search for "ｐｏｓｔｅｄ  ｂｙ："
 
@@ -100,7 +101,7 @@ for TDAYpost in subreddit.search(f"Daily {today}"):
 # WHERE ALL THE POSTING HAPPENS (COMMENT TO DISABLE)
 for i in unrepliedComments:
     TDAYsubmission.reply(f"{i}")
-YSTDcomment = TDAYsubmission.reply(f"Go [here]({YSTDsubmission.url}) for yesterday's megathread! 10-JUN-2020: Fixed a bug where the bot will comment on the wrong post. Apologies for the double mention for the users affected! -- u/Randomystick")
+YSTDcomment = TDAYsubmission.reply(f"Go [here]({YSTDsubmission.url}) for yesterday's megathread!")
 YSTDcomment.mod.distinguish(sticky=True)
 
 
